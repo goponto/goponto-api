@@ -12,11 +12,11 @@ Goponto é um aplicativo online para controle de registro de ponto e totalizaç�
 
 - [introdução](#introdução)
 - [Funcionalidades](#funcionalidades)
-- [Metodos](#metodos)
+- [Metodos](#métodos)
 - [Banco de dados](#banco-de-dados)
-- [Mode de uso](#mode-de-uso)
-- [Filtros de pesquisa](#filtros-de-pesquisa)
-- [licença](#licenca)
+- [Modo de uso](#modo-de-uso)
+- [Filtros de pesquisa](#filtros-de-busca)
+- [licença](#licença)
 
 ### Introdução
 
@@ -55,9 +55,9 @@ Simples API REST:
 
 - [ ] [SQLite3]() 
 
-### Mode de uso
+### Modo de uso
 
-### Filtros de pesquisa
+### Filtros de busca
 
 ## Licença
 
