@@ -1,10 +1,10 @@
 ## API Goponto
 
-API de gerenciamento, inclusão e consulta das marcações de ponto, da aplicaço Goponto
+API de gerenciamento, inclusão e consulta das marcações de ponto, da aplicação Goponto
 
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/goponto/goponto-api/blob/master/LICENSE)
 
-Goponto é um aplicativo online para controle de registro de ponto e totalização de horas.
+Goponto é um aplicativo online para controle `pessoal` de registro de ponto e totalização de horas.
 
 [English version here](https://github.com/goponto/goponto-api/master/README-en.md)
 
@@ -36,7 +36,14 @@ Na [PORTARIA Nº 1.510, DE 21 DE AGOSTO DE 2009](http://www.trtsp.jus.br/geral/t
 
 ### Funcionalidades
 
-- [ ] Full test coverage
+- [ ] Inclusão, alteração e exclusão de registros de ponto;
+- [ ] Inclusão, alteração de empresa;
+- [ ] Autenticação *
+- [ ] Upload de imagens *
+
+### Fazer
+
+- [ ] Tudo!
 
 ### Métodos
 
@@ -50,10 +57,13 @@ Simples API REST:
 | `/register`  | POST        | Register   | Cria um novo registro, gerando um novo ID.
 | `/register/:id` | PUT         | Register   | Atualiza prarcialmente um registro pelo ID.
 | `/register/:id`  | DELETE      | Register   | Apara um registro pelo ID
+| `/company`  | POST        | Company   | Cria uma nova empresa.
+| `/company/:id` | PUT         | Company   | Atualiza prarcialmente uma empresa pelo ID.
+| `/company/:id`  | DELETE      | Company   | Apara uma empresa pelo ID, se não possuir marcações de ponto.
 
 ### Banco de dados
 
-- [ ] [SQLite3]() 
+- [ ] Postgres e/ou Standalone;
 
 ### Modo de uso
 
